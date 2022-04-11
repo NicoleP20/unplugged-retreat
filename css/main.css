@@ -196,6 +196,7 @@ header nav {
 }
 
 header nav ul {
+  padding: 0;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -225,7 +226,7 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -233,6 +234,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -648,6 +657,10 @@ input[type="button"] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
   }
 
   footer .copyright {
