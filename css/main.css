@@ -594,7 +594,7 @@ input[type="button"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: colummn wrap;
+    flex-flow: column wrap;
     flex-basis: 50%;
   }
 
